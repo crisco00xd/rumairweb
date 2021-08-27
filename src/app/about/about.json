@@ -1,0 +1,43 @@
+[
+       {
+          "firstName":"Devin",
+          "lastName":"Padrón",
+          "image":"https://drive.google.com/uc?export=view&id=1m41oEB3KJaSb88YGD_MKs4f78QDG4AOV",
+          "title":"Advanced Class & Structural Analysis Leader (2018-2019)",
+          "linkedIn":"https://www.linkedin.com/in/devin-p/",
+          "status": "success",
+
+          "story":"“My time with the Aero-Design team has provided some of the most memorable and rewarding experiences I've had at the university. The project has exposed me to people that have quickly become family. It has challenged me to be more technically sound. It has showed me the importance of teamwork in an engineering environment and it has taught me that there are some things you just can’t learn in a classroom. Thanks to the skills I’ve acquired and the connections I’ve built during my time in the project, I’ve been able to take part in internships within various engineering industries. The project has played an immense role in my professional development and on everyone who puts forth the effort.”"
+          
+       },
+       {
+          "firstName":"Hazel",
+          "lastName":"Rivera",
+          "image":"https://drive.google.com/uc?export=view&id=1ApMdBE-L7jF8CC5UjrAuCzo2D_PfKT2t",
+          "title":"Micro Aircraft Performance Leader (2016-2018)",
+          "linkedIn":"",
+          "status": "warning",
+          
+          "story":"“Being part of the RUM-Air Aero Design team has given me many opportunities of growth. When I first joined RUM-Air, I never imagined it would have such an impact professionally, academically, and socially. Teamwork, leadership, and proper time management are few of the skills that I have learned while being on the team. Thanks to the experience the project has given me, I have been able to participate on internships at NASA Glenn Research Center and the University of Florida. Representing UPRM with this project has been an amazing experience. Seeing an aircraft fly, after all the hard work and dedication, is truly a unique and gratifying experience.”"
+       },
+       {
+        "firstName":"Moshé",
+        "lastName":"Rivera",
+        "image":"https://drive.google.com/uc?export=view&id=1gBPEiVhjkoXWqJ1WzEHnyQGu6ms-egZY",
+        "title":"Advanced Class Leader (2019-2020)",
+        "linkedIn":"",
+        "status": "success",
+        
+        "story":"“Aero Design has helped me to transcend as a leader. It has taught me what a real leader must be. I have had the joy of being responsible for designing one of the most complicated parts of the plane that is the fuselage. I never thought I would be able to design something in such detail. I learned the importance of keeping communication with the other parts of the plane to ensure a good assembly of everything. I was able to apply my acquired knowledge in class and grow in the aerospace area which is what I want to execute as a career.”"
+       },
+       {
+        "firstName":"Janelis",
+        "lastName":"Tirado",
+        "image":"https://drive.google.com/uc?export=view&id=1jhfq1g0f5vFqPYLQYGi_voVbpSW1fatC",
+        "title":"Former Team Member (2018-2020)",
+        "linkedIn":"",
+        "status": "warning",
+        
+        "story":"“Since I arrived to Rum-Air, it helped me achieve and gained things above what I ever expected. It helped me obtained team work experience as well as technical skills. Not only that, my communication skills improve with the help of the technical presentations and responsibility that as a Rum-Air member I learned to take on and work on. Rum-Air experiences led me to obtained a COOP experience which led to a Full-Time job upon graduation. Also, to dig deeper into what exactly I liked about being a Mechanical Engineer and what were my weaknesses to be able to worked on them.”"
+       }
+]

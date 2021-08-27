@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+.inmiddle{
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.texto{
+  font-family: "Nunito", sans-serif;
+}
+
+.stories{
+  height: 100%;
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* .edmarie {
+  background-image: url("https://drive.google.com/uc?export=view&id=1I5HOs44ZX36z3GLuG0s4MjdvloS_L0Lu") !important;
+  background-size: cover;
+  background-position-x: center;
+} */
+
+.Janelis {
+  background-image: url("https://drive.google.com/uc?export=view&id=1jhfq1g0f5vFqPYLQYGi_voVbpSW1fatC") !important;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.Hazel {
+  background-image: url("https://drive.google.com/uc?export=view&id=1ApMdBE-L7jF8CC5UjrAuCzo2D_PfKT2t") !important;
+  background-size: cover;
+  background-position-x: center;
+}
+
+/* .dennis {
+  background-image: url("https://drive.google.com/uc?export=view&id=1gw-cOc2tmXPSw2bGpdhIlv7Q6KvEKWEf") !important;
+  background-size: cover;
+  background-position-x: center;
+} */
+
+/* .marcos {
+  background-image: url("https://drive.google.com/uc?export=view&id=1KT-jaby-OZl7WdMrlO9ojhcdHddPjoIM") !important;
+  background-size: cover;
+  background-position-x: center;
+} */
+
+/* .diego{
+  background-image: url("https://drive.google.com/uc?export=view&id=1DSEy8J_yYQ7_lS2IevURh6FiUm09rwsf") !important;
+  background-size: cover;
+  background-position-x: center;
+} */
+
+.Moshé{
+  background-image: url("https://drive.google.com/uc?export=view&id=1gBPEiVhjkoXWqJ1WzEHnyQGu6ms-egZY") !important;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.Devin{
+  background-image: url("https://drive.google.com/uc?export=view&id=1m41oEB3KJaSb88YGD_MKs4f78QDG4AOV") !important;
+  background-size: cover;
+  background-position-x: center;
+}
+
+.paragraph{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerImg{
+  width: 100%; 
+    height: 200px;
+    object-fit: cover;
+    padding: 0px; 
+}
+.fotoSae{
+  width: 100%; 
+    height: 75%;
+    object-fit: cover;
+    padding: 0px; 
+}
+
+.retrato{
+  width: 100%; 
+    height: 250px;
+    object-fit: cover;
+    padding: 0px; 
+    vertical-align: middle;
+}
+
+.retrato2{
+  width: 100%; 
+    height: 8%;
+    object-fit: cover;
+    padding: 0px; 
+    vertical-align: middle;
+}
+
+table{
+  padding: -6px;
+  margin: -6px;
+}
+
+.avion{
+  width: 100%; 
+    height: 300px;
+    object-fit: cover;
+    padding: 0px; 
+}
+
+.wrapper {
+   /* background-color: green; */
+  text-align: center;
+}
+.center {
+  /* background-color: lightgray;  */
+  /* display: block; */
+  /* width: 60%; */
+  /* margin-right: auto;
+  margin-left: auto; */
+  text-align: center;
+}
+
+.sae{
+   /* width: 300px;
+   height: 100px; */
+  background-color: rgb(200, 245, 255);
+  /* box-shadow: 0 0 0 5px lightblue; */
+  border-radius: 40px;
+  border: 4px dashed rgb(0, 80, 149);
+  text-align: justify;
+  padding: 2%;
+  font-size: 16px;
+  height: 100%;
+  color: rgb(75, 75, 75);
+}
+
+.mission{
+ 
+ background-color: #ffdd57;
+ border-radius: 40px;
+ border: 4px dashed #947600;
+ text-align: justify;
+ padding: 2%;
+ font-size: 16px;
+ height: 100%;
+ color: rgb(75, 75, 75);
+}
+
+.saeLogo{
+  text-align: justify;
+  padding: 2%;
+  height: 100%;
+}
+
+.container {
+  width: 80%;
+  height: 200px;
+  
+  margin: auto;
+  padding: 10px;
+}
+
+.one {
+  /* background-color: lightblue;
+  border: 5px dashed navy;
+  box-shadow: 0 0 0 5px lightblue; */
+  width: 50%;
+  float: left;
+}
+
+.two {
+  /* margin-left: 15%;
+  width: 100%;
+  background: black; */
+  margin-top: 2%;
+  float:right;
+  width: 50%;
+}
+
+@media screen and (max-width:800px){
+
+  .one, .two{
+    float:none;
+    width: 100%;
+  }
+}
+
+.wrapper {
+  /* width: 500px; */
+  border: 1px solid black;
+  overflow: hidden; /* add this to contain floated children */
+}
+
+
+.airText{
+  /* text-align: center; */
+  font-family: "Nunito", sans-serif;
+  font-size: 50px;
+  vertical-align: middle;
+  
+}
+
+.retrato {
+  display: none;
+}
+
+@media screen and (max-width:800px){
+
+  .tabla td{
+    display: block;
+  }
+
+  .retrato {
+    display: inline;
+  }
+
+  
+}
+
+
+

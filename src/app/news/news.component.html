@@ -1,0 +1,37 @@
+<!-- article list loops through the array of article information TEAM in team.component.ts
+    Angular flex layout was used for dynamically setting the row limits for different
+    displays. -->
+<h1 class="airText texto" style="margin-left: 5%;">News</h1>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<div class="container is-fullhd">
+    <table class="tabla texto" style="padding-left: 3%;">
+        <br>
+        <div *ngFor="let article of news">
+                <div class="awardsarea">
+                    <a href="{{ article.link }}">
+                        <p
+                            style="font-weight:bolder ;text-transform: uppercase; color:darkgreen; text-align: center; font-size: 30px;">
+                            {{ article.headline }}</p>
+                        <br>
+                    </a>
+                    <td class="colegioImg has-text-centered" style="padding-top: 2%; width: 25%;">
+                        <tr>
+                            <a href="{{ article.link }}">
+                                <img src="{{ article.image }}" style="width: 50%; box-shadow: 4px 4px 6px grey;">
+                            </a>
+                        </tr>
+                    </td>
+                    <br>
+                    <p style="text-align: center;"> {{ article.description }}</p><br><br>
+                </div>
+                <a href="{{ article.link }}">
+                    <button class="btn" style="float: right;">Learn More</button>
+                </a>
+
+            <br>
+            <br>
+            <br>
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        </div>
+    </table>
+</div>

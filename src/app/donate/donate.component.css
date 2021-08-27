@@ -1,0 +1,133 @@
+
+  
+  
+  #grad1 {
+    height: 100%;
+    background-color: black; /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(to bottom right, lightgreen, aqua); Standard syntax (must be last) */
+  }
+  
+  .retrato {
+      width: 100%; /* You can set the dimensions to whatever you want */
+      height: 400px;
+      object-fit: cover;
+      padding: 10px;
+  }
+  
+  .profe {
+    width: 100%;
+    height: 400px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    object-fit: cover;
+    padding: 10px;
+  }
+  
+  .tarjeta {
+    width:50%;
+    /* align:"center"; */
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  /* table.tabla {
+    table-layout: fixed;
+    width: 100%;
+    vertical-align: middle;
+  } */
+  
+  /* td.tabla {
+    text-align: center;
+    vertical-align: middle;
+  } */
+  
+  .celda{
+   text-align: center; 
+   vertical-align: middle;
+  }
+  .tableImg {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* vertical-align: center; */
+  
+  }
+  
+  .borde {
+    width: 100%; /* You can set the dimensions to whatever you want */
+    height: 100px;
+    object-fit: cover;
+    /* padding: 10px; */
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .airText{
+    /* text-align: center; */
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    color: rgb(28, 92, 70);
+    vertical-align: middle;
+    
+}
+
+.caja {
+  background-color: white;
+}
+
+.frase {
+  color: white;
+  width: 100%;
+  /* background-color: rgb(28, 92, 70); For browsers that do not support gradients */
+  /* background-image: linear-gradient(to bottom right, rgb(255, 102, 0), rgb(225, 223, 233)); Standard syntax (must be last) */
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-style: solid;
+  border-color: whitesmoke;
+}
+
+.ui-helper-center {
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.texto{
+  font-family: "Nunito", sans-serif;
+}
+
+.awardsarea{
+  background-image: url("https://drive.google.com/uc?export=view&id=1tIZTXQPJY8aYo2uu-Fp4dUf5G9OPv07w")!important;
+  background-size: cover;
+  background-position: right center;
+  background-blend-mode: lighten;
+}
+
+.buttonPaypal{
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  width: 65%;
+}

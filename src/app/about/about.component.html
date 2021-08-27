@@ -1,0 +1,139 @@
+<h1 class="airText texto awardsarea" style="margin-left: 5%;"> About</h1>
+<br>
+<div class="medio">
+
+  <table>
+    <tr>
+      <td>
+        <img src="https://drive.google.com/uc?export=view&id=1N6BwWYUkgFTKk0i-WreurdDm58C9Hj5L" class="headerImg" alt="">
+      </td>
+      <td>
+        <img src="https://drive.google.com/uc?export=view&id=1UypPIHEtGvJtajulrs5J9wPBjJqdHTj0" class="headerImg" alt="">
+      </td>
+      <td>
+        <img src="https://drive.google.com/uc?export=view&id=1iS37XO9zOBYrwXwL6VWW9oV3UmZye52o" class="headerImg" alt="">
+      </td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <td>
+        <img src="https://drive.google.com/uc?export=view&id=1G6Uacjtm4Uxno-0vRxdzEKOKWwtrOi4t" class="headerImg" alt="">
+      </td>
+      <td>
+        <img src="https://drive.google.com/uc?export=view&id=1ygTQRFViNn4baFQzU2zi1s2qgakQrmvr" class="headerImg" alt="">
+      </td>
+      <td>
+        <img src="https://drive.google.com/uc?export=view&id=1uGNAwsaJx3qhA7JXj6quvzZZIBy5lUqA" class="headerImg" alt="">
+      </td>
+    </tr>
+  </table>
+
+</div>
+
+<br>
+
+<div class="inmiddle" style="width: 90%;">
+  <p class="awardsarea texto medio" style="text-align: justify;">
+    Since its establishment in 1995, RUM-Air has continuously brought
+    prestige to the university by bringing home many awards and accolades.
+    The team allows students the opportunity to apply what they have learned
+    in class, representing the RUM and Puerto Rico in the SAE Aero Design competitions,
+    an international event. After forming part of RUM-Air, members of the team are
+    often recruited by leading engineering companies.
+    <br>
+    <br>
+    This coming year, RUM-Air will take on the challenge of surpassing over 85 collegiate 
+    design teams in the SAE Aero Design West competition. The competition is divided into 
+    different classes with rules, constraints, and mission requirements based on current 
+    aerospace trends and established to promote creative, cost-effective, and efficient 
+    solutions to the industry’s greatest challenges. These are the Regular, Micro, and Advanced class aircraft. 
+  </p>
+</div>
+
+<div class="medio">
+
+  <br>
+
+  <table class= "tabla">
+    <tr>
+      <td>
+        <img src="https://drive.google.com/uc?export=view&id=1J0EkOLwekjY1CPS2dN-CGlAqZTdh0m00" class="avion" alt="">
+      </td>
+      <td>
+        <img src="https://drive.google.com/uc?export=view&id=1QKRQ6UMfNNEZ50sATms0PHziVmOVLYxj" class="avion" alt="">
+      </td>
+      <td>
+        <img src="https://drive.google.com/uc?export=view&id=1rTEE7SSQhH6FsPv9OIeUi_3Tp_IJlkeR" class="avion" alt="">
+      </td>
+    </tr>
+  </table>
+
+  <br><br>
+
+  <!-- <p class="texto awardsarea" style="text-align: justify;">
+    The team is responsible for covering all its
+    costs by means of sales, donations, and other initiatives.
+    The teams’ budget includes materials costs, and team and aircraft travel expenses.
+  </p> -->
+
+  <table class="inmiddle tabla" style="width: 90%;">
+    <col width="25%">
+    <col width="75%">
+    <tr>
+      <td class="saeLogo"><img src="https://drive.google.com/uc?export=view&id=1eQFVUSV4B3Iu1T6o1sao9O5LfKSIRLfJ"></td>
+      <td>
+        <p class="texto sae">
+          <strong style="font-size: 18px;">SAE UPRM</strong> is a multidisciplinary student organization 
+          dedicated to providing professional experiences for its members to allow them to put into practice 
+          what they have learned in class. Our collegiate chapter provides technical and professional development 
+          support to the most renowned special projects on campus (Aero Design, Mini Baja, Formula, and Solar Car), 
+          which allow over 70 students from various majors to design and manufacture different vehicles. We also 
+          ignite the imagination of young high school students with our STEM Initiative program through which we 
+          educate them in science, technology, engineering, and mathematics while exposing them to our special projects.
+        </p>
+      </td>
+    </tr> 
+  </table>
+  <br><br>
+  <table class="inmiddle tabla" style="width: 90%;">
+    <col width="25%">
+    <col width="75%">
+    <tr>
+      <td class="saeLogo"><img src="https://superdr.in/home/images/mission.png"></td>
+      <td>
+        <p class="texto mission">
+          <strong style="font-size: 18px;">OUR MISSION</strong> is to represent Puerto Rico in the SAE Aero Design competition and the Aero
+          Connect Challenge, organized by SAE International, against eighty-five (85) teams or more from
+          universities around the world. These competition promotes innovation in the aerospace industry
+          through challenging missions and design constraints inspired by current technology trends.  The
+          team’s goal is to design lightweight, efficient, and reliable aircraft capable of lifting the highest possible
+          weight while meeting design specifications.
+        </p>
+      </td>
+    </tr> 
+  </table>
+</div><br>
+
+<!-- Member list loops through about.json file to get all success stories.-->
+
+<h1 class="airText texto awardsarea" style="margin-left: 5%;"> Success Stories</h1><br>
+<table class="inmiddle tabla" style="width: 90%;" div *ngFor="let member of successMemberList">
+  <col width="20%">
+  <col width="80%">
+      <col width="20%">
+      <col width="80%">
+      <tr>
+        <td class="{{ member.firstName }}"></td>
+        <td>
+          <article class="message is-{{ member.status }}">
+            <div class="message-body texto stories" style="color: rgb(75, 75, 75);">
+              <strong style="font-size: 18px;">{{ member.firstName}} {{ member.lastName}} — {{ member.title }} </strong><br>
+              <p id="story"> {{ member.story }} </p>
+            </div>
+          </article>
+        </td>
+      </tr>
+    <tr><br></tr>
+</table>

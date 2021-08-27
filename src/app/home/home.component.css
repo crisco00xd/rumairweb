@@ -1,0 +1,21 @@
+.hero{
+    background-image: url("https://drive.google.com/uc?export=view&id=1bSEMgX2bbDcWRWJmWEWn3w7SHiNmN7Wg") !important;
+
+    background-size: cover;
+    background-position: center center;
+}
+
+.tab-content {
+    padding: 1rem;
+    display: none;
+  }
+
+.tab-content.is-active {
+    display: block;
+  }
+li.is-active {
+   color: rgb(28,92,70);
+   font-weight: bold;
+   animation: pop 0.2s linear 1;
+
+}

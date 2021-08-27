@@ -1,0 +1,83 @@
+<div>
+    <h1 class="airText texto" style="margin-left: 5%;">Meet the Team</h1>
+    <br>
+</div>
+<!-- <div class="clouds">
+    <img src="../assets/dav_img/equipo.jpg" alt="" class="center">
+</div> -->
+<!-- <br> -->
+
+<section class="awardsarea medio texto" style="text-align: justify;">
+    <p>
+        Aircraft design, as with any other complex system, involves a wide array
+        of engineering, science, and project management skills, making the project
+        inherently multidisciplinary in nature. To cope with these technical
+        requirements, RUM-Air is composed of 45 college students from diverse
+        engineering and business/accounting majors. In total, 31 students
+        participated in the RUM-Air last year, and more than 25% of them
+        received internship or co-op offers after their first semester.
+    </p>
+
+    <br>
+    <p>
+        Innovation cannot be achieved without diversity of thought. RUM-Air is made 
+        up of a culturally and socially diverse group of members who vary wildly in major, 
+        gender, and age. The differences between our members' backgrounds allow for the 
+        development of new, unique ideas and challenging technical discussions.
+    </p>
+
+    <br>
+    <p>At RUM-Air, each member has the opportunity to develop the technical and
+        communication skills to be successful in today's interdisciplinary work
+        environment. To achieve this, team organization consists of two parallel
+        structures: aircraft components and departments. Most members are assigned
+        to the design and manufacture of one aircraft component while supporting
+        the entire project with their work at a specific department. Project Management
+        department members are distributed between aircraft to provide an effective
+        interface between planning and executing the team's strategy. Each aircraft
+        and department has a leader who coordinates their group's efforts. This
+        organization provides a holistic approach that effectively promotes synergy
+        among team members and develops their engineering, critical thinking, and
+        collaboration skills in one semester.</p>
+</section>
+
+<br>
+
+<div class="frase has-text-centered center texto" style="padding-top: 2%;">
+    <h3 class="fraseRegu">Diversity of thought and organization are the keys to our success!</h3>
+    <h3 class="fraseResp">Diversity of thought and organization are the keys to our success!</h3>
+</div>
+
+
+<!-- ADD A  -->
+<br>
+
+<!-- Member list loops through the array of member information TEAM in team.component.ts
+    Angular flex layout was used for dynamically setting the row limits for different
+    displays. -->
+<div class="container is-fullhd">
+    <div class="notification is-dark is-bold">
+        <table class="tabla texto" style="padding-left: 3%;">
+            <div class="member-list" fxLayout="row">
+                <div *ngFor="let member of team" class="member-list-item" fxFlex=33%>
+                    <!-- Edge case if statement for a certain member that had title 
+                         length over the limit (55 characters) for 2 lines of text, 
+                         a more general solution should be implemented here but this 
+                         works for now, comment out in the future if all member titles 
+                         are under 55 characters. -->
+                    <div *ngIf="member.title=='Electronics Leader, Advanced Empennage & Structures and Materials'; then tooLong else underLimit"></div> 
+                    <ng-template #tooLong>
+                        <p style="text-align: center;">{{ member.firstName }} {{ member.lastName }} - {{ member.title }}</p>
+                        <a href="{{ member.linkedIn }}">
+                        <img src= "{{ member.image }}"  alt="" class="retrato"></a>
+                    </ng-template>
+                    <ng-template #underLimit>
+                        <p style="text-align: center;">{{ member.firstName }} {{ member.lastName }} <br> {{ member.title }}</p>
+                        <a href="{{ member.linkedIn }}">
+                        <img src= "{{ member.image }}"  alt="" class="retrato"></a>
+                    </ng-template>
+                </div>
+            </div>  
+        </table>
+    </div>
+</div>

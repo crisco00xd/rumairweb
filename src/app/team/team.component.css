@@ -1,0 +1,180 @@
+
+  
+  
+  #grad1 {
+    height: 100%;
+    background-color: black; /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(to bottom right, lightgreen, aqua); Standard syntax (must be last) */
+  }
+  
+  .retrato {
+      width: 100%; /* You can set the dimensions to whatever you want */
+      height: 400px;
+      object-fit: cover;
+      padding: 10px;
+  }
+  
+  .profe {
+    width: 100%;
+    height: 500px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    object-fit: cover;
+    padding: 10px;
+  }
+  
+  .tarjeta {
+    width:50%;
+    /* align:"center"; */
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  table.tabla {
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  td.tabla {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .tableImg {
+    width: 50%;
+  
+  }
+  
+  .borde {
+    width: 100%; /* You can set the dimensions to whatever you want */
+    height: 100px;
+    object-fit: cover;
+    /* padding: 10px; */
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  .airText {
+    /* text-align: center; */
+    font-size: 50px;    
+}
+
+.caja {
+  background-color: white;
+}
+
+.texto {
+  font-family: "Nunito", sans-serif;  
+ }
+
+ .medio {
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+ } 
+
+ .awardsarea {
+  background-image: url("https://drive.google.com/uc?export=view&id=1tIZTXQPJY8aYo2uu-Fp4dUf5G9OPv07w")!important;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: lighten;
+}
+
+.frase {
+  color: white;
+  font-size: 25px;
+  width: 90%;
+  height:80px;
+  background-image: url("https://drive.google.com/uc?export=view&id=1uVTwo9yERVy42QXhMjHXBwv14jKgUX8Q")!important;
+  background-size: cover;
+  background-position: center bottom;
+ 
+}
+
+.clouds{
+  background-image: url("https://drive.google.com/uc?export=view&id=1HhRFDyaFXqCLenr8uVoJDdZlONG7iZ8B")!important;
+  background-size: contain;
+  background-position: center center;
+  background-blend-mode: lighten;
+}
+
+.fraseResp{
+  display: none;
+}
+
+ .member-list {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+ }
+
+.member-list > * {
+   box-sizing: border-box;
+ } 
+
+ .member-list-item {
+   flex: 0 1 33.3%;
+ }
+
+ @media screen and (max-width: 959px) {
+
+  .member-list-item {
+    flex: 0 1 50%;
+  }
+}
+
+@media screen and (max-width: 599px){
+  .member-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+} 
+
+@media screen and (max-width:800px){
+
+  .tabla td{
+    display: block;
+    padding-left: 3%;
+  }
+
+  .frase {
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    height: max-content !important;
+    border-radius: 5px;
+    background-image: none !important;
+    background-color: red;
+    vertical-align: middle;
+  }
+  
+  .fraseResp{
+    display: inline;
+  }
+
+  .fraseRegu {
+    display: none;
+  }
+  
+}

@@ -1,0 +1,46 @@
+{
+    "Sponsors": {
+       "Gold": [
+        { "name": "Puma", "image_url": "https://drive.google.com/uc?export=view&id=1PJRIhsJrGgv4LSNmc9XYOB95cubDmNlq" },
+        { "name": "GM", "image_url": "https://drive.google.com/uc?export=view&id=1WWzQPSqbekJRKeuMMk78DsUG2AZEZGCn" },
+        { "name": "Ace", "image_url": "https://drive.google.com/uc?export=view&id=1huuJOCqAmMLsPIoeyM1AG-VWkGC2N4i_" }
+        ], 
+       "Silver": [
+        { "name": "Amgen", "image_url": "https://drive.google.com/uc?export=view&id=1x6UZZ0V_dkSc1h7Zunv-nDhH2TN5ojuq" },
+        { "name": "L3Harris", "image_url": "https://drive.google.com/uc?export=view&id=1XWv0MW61gMkGtY7j_bpSLGkbRz7LPPVU" },
+        { "name": "Finanxial", "image_url": "https://drive.google.com/uc?export=view&id=1yqMkhrkE6vuuekJ2P8KWs05TxBbw-iDP" },
+        { "name": "Blue Ocean", "image_url": "https://drive.google.com/uc?export=view&id=1wLUVxZE7Zzz2yr22THGJKIwagvDZ_7so" },
+        { "name": "Chevron", "image_url": "https://drive.google.com/uc?export=view&id=1B5asFEkW4QniJrhBIkIMDkpkihHxAmo0" },
+        { "name": "Fluor", "image_url": "https://drive.google.com/uc?export=view&id=1VFJJYltl4XZpj_W9z_RvXfbY60hKDlga" },
+        { "name": "Coop Hermanos", "image_url": "https://drive.google.com/uc?export=view&id=1YQWAdOob4cCCG2WmI1RGoZgLh334-uRK" },
+        { "name": "Boeing", "image_url": "https://drive.google.com/uc?export=view&id=1fcW9rrOaAnWIuLc_DTXwt6lfI6zvUcun" },
+        { "name": "JLMS", "image_url": "https://drive.google.com/uc?export=view&id=1UfvlF21ol7CIfmg58JAXMZCCGdCeACeO" },
+        { "name": "AP", "image_url": "https://drive.google.com/uc?export=view&id=1LnWpwMdSVcDNXbL5pHO-yt_RNCo4Fxun" },
+        { "name": "MCS", "image_url": "https://drive.google.com/uc?export=view&id=1Tnem1x4f2AS94Gh9OJzjahzzn1PSEDMI" },
+        { "name": "Onuvo", "image_url": "https://drive.google.com/uc?export=view&id=15hfhn7w4Zvh_0UzWUnAkXgD29M5LAndW" }
+        ],
+       "Bronze": [
+        { "name": "Invision", "image_url": "https://drive.google.com/uc?export=view&id=1q7ENu5Le_LszZMfKMU2eTD7gFgr2Bn6J" },
+        { "name": "Lockheed", "image_url": "https://drive.google.com/uc?export=view&id=15opc5yR0o7Rw-zwcdNincoZvM7yOl9N5" },
+        { "name": "Credicentro", "image_url": "https://drive.google.com/uc?export=view&id=1p3YYt-hWd3zAcxgWaG_ZANR4snln_LmT" },
+        { "name": "EcoElectrica", "image_url": "https://drive.google.com/uc?export=view&id=1eiTUyDBYEWvArbzeunkmKLaOF34suX7C" },
+        { "name": "JMG", "image_url": "https://drive.google.com/uc?export=view&id=159XgkvnCBFEZduwK37p0z43zs4apl2Pd" },
+        { "name": "Rebexa", "image_url": "https://drive.google.com/uc?export=view&id=1ANskgpcmYW_Dy7GzYPlpwCB7DDtiK-hd" }
+        ],
+        "Alternate": [
+        { "name": "Don Frappe", "image_url": "https://drive.google.com/uc?export=view&id=1g_yhxirn8YELZFVcXzaz6c3gLHk0FbXX" },
+        { "name": "ExoLock", "image_url": "https://drive.google.com/uc?export=view&id=1Ka4pNxkaGQIvwjm8nj99yPOZhWD-RD_i" },
+        { "name": "Graffo", "image_url": "https://drive.google.com/uc?export=view&id=1nNNlIRzqjfdotsz-KWk7HJ1QRl4o2oyb" },
+        { "name": "LC Barbosa", "image_url": "https://drive.google.com/uc?export=view&id=1gJV-0U7Egin90fcE88MpFEbRXjVU6C1r" },
+        { "name": "Menna RX", "image_url": "https://drive.google.com/uc?export=view&id=1g2GxsOkKn7EjFeXHSARoXPWxWr63iPQM" },
+        { "name": "Mendez Transport", "image_url": "https://drive.google.com/uc?export=view&id=15lmQfhpkeYPxxLA38eOc_gNdfbNIxaaV" },
+        { "name": "Magic", "image_url": "https://drive.google.com/uc?export=view&id=1C_aMjPvk3kvne8Avs_k5gmh4qijg1DNK" },
+        { "name": "Pontezuela", "image_url": "https://drive.google.com/uc?export=view&id=1vspQW9HtIiSys6BR7JsoijAS8SpiNADd" },
+        { "name": "Promix", "image_url": "https://drive.google.com/uc?export=view&id=1TmmFX9GrcY4yW5wDykXpD7RmmRZhM8Iu" },
+        { "name": "SAE", "image_url": "https://drive.google.com/uc?export=view&id=1cF0VmYMksrzVAGAeA6atZw8MzQa0TOCW" },
+        { "name": "Saliazuka", "image_url": "https://drive.google.com/uc?export=view&id=1mYejKjtLgdRpFbrOtZfu_DqzEe2qnaR0" },
+        { "name": "Seguros Yazmin", "image_url": "https://drive.google.com/uc?export=view&id=1pZxw_4CTg9R9zhnJrh0fXj9JQRT2Mapq" },
+        { "name": "Abbott", "image_url": "https://drive.google.com/uc?export=view&id=1tG0tCoNHoR3kMIJ0CW-qUnR75cP3gl0S" }
+        ]
+    }
+}

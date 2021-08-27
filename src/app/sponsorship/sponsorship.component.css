@@ -1,0 +1,213 @@
+
+  
+  .paragraph {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #grad1 {
+    height: 100%;
+    background-color: black; /* For browsers that do not support gradients */
+    /* background-image: linear-gradient(to bottom right, lightgreen, aqua); Standard syntax (must be last) */
+  }
+  
+  .retrato {
+      width: 100%; /* You can set the dimensions to whatever you want */
+      height: 400px;
+      object-fit: cover;
+      padding: 10px;
+  }
+  
+  .profe {
+    width: 100%;
+    height: 500px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    object-fit: cover;
+    padding: 10px;
+  }
+  
+  .tarjeta {
+    width:50%;
+    /* align:"center"; */
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  /* table.tabla {
+    table-layout: fixed;
+    width: 100%;
+  }
+  
+  td.tabla {
+    text-align: center;
+    vertical-align: middle;
+  } */
+  
+  .tableImg {
+    width: 50%;
+  
+  }
+  
+  .borde {
+    width: 100%; /* You can set the dimensions to whatever you want */
+    height: 100px;
+    object-fit: cover;
+    /* padding: 10px; */
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+
+  .columnSponsor {
+    float: left;
+    width:25%;
+  }
+
+  .columnSponsor2 {
+    float: left;
+    width:20%;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .wrapper {
+    /* background-color: green; for visualization purposes */
+    text-align: center;
+  }
+  .center {
+    /* background-color: lightgray; for visualization purposes */
+    /* display: block; */
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  } */
+
+  .airText{
+    /* text-align: center; */
+    font-size: 50px;
+    /* font-style: italic; */
+    
+}
+
+.sponsorDiv {
+  display: block;
+  border-bottom: solid;
+}
+
+.caja {
+  background-color: white;
+}
+
+.frase {
+  color: white;
+  font-size: 25px;
+  width: 90%;
+  height:80px;
+  /* background-color: rgb(55, 189, 241); For browsers that do not support gradients */
+  background-image: url("https://drive.google.com/uc?export=view&id=1uVTwo9yERVy42QXhMjHXBwv14jKgUX8Q")!important;
+  background-size: cover;
+  background-position: center bottom;
+  /* font-size: 25px;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  border-style: solid; */
+}
+
+li {
+    list-style-type: square;
+  }
+
+  table {
+    table-layout: fixed ;
+    width: 100% ;
+  }
+  th, td {
+    width: 25% ;
+    padding: 8px;
+  }
+
+  th{
+      font-size: 25px;
+  }
+
+  tr:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+
+.texto{
+   font-family: "Nunito", sans-serif;  
+  }
+
+
+    .awardsarea{
+      background-image: url("https://drive.google.com/uc?export=view&id=1tIZTXQPJY8aYo2uu-Fp4dUf5G9OPv07w")!important;
+      background-size: cover;
+      background-position: center center;
+      background-blend-mode: lighten;
+  }
+
+  .fraseResp{
+    display: none;
+  }
+
+  .tablaResp {
+    display: none;
+  }
+
+  @media screen and (max-width:800px){
+
+    .frase {
+      color: white;
+      font-size: 20px;
+      width: 90%;
+      border-radius: 5px;
+      background-image: none !important;
+      background-color: red;
+      vertical-align: middle;
+    }
+
+    .fraseResp{
+      display: inline;
+    }
+
+    .fraseRegu {
+      display: none;
+    }
+
+    .tablaRegu {
+      display: none;
+    }
+
+    .tablaResp{
+      display: inline;
+    }
+
+    .columnSponsor {
+      width: 70%;
+      vertical-align: middle;
+    }
+  
+    .columnSponsor2 {
+      width: 70%;
+      vertical-align: middle;
+    }
+  }
+
+
+  
