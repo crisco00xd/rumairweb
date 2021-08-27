@@ -11,13 +11,10 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
-
     strategy:
       matrix:
-        node-version: [16.x]
         os: [macos-latest, ubuntu-latest, windows-latest]
+        node-version: [16.x]
     runs-on: ${{ matrix.os }}
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
