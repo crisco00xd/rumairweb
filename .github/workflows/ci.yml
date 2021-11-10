@@ -13,7 +13,7 @@ jobs:
   eslint:
     strategy:
       matrix:
-        node-version: [12.18.2]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     runs-on: ubuntu-latest
     steps:
@@ -30,7 +30,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Run ESLint
-      uses: stefanoeb/eslint-action@1.0.2
+      run: eslint . --ext .js,.jsx,.ts,.tsx
   build:
     strategy:
       matrix:
