@@ -13,7 +13,7 @@ jobs:
   eslint:
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [12.18.2]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     runs-on: ubuntu-latest
     steps:
