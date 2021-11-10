@@ -17,6 +17,11 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     runs-on: ubuntu-latest
     steps:
+    - name: Install yarn
+    - run: npm install -g yarn
+    - name: Install project dependencies
+      if: steps.yarn-cache.outputs.cache-hit != 'true' # Over here!
+    - run: yarn
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
