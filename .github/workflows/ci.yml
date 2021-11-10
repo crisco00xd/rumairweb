@@ -11,26 +11,19 @@ on:
 
 jobs:
   eslint:
-    strategy:
-      matrix:
-        node-version: [16.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     runs-on: ubuntu-latest
     steps:
-    - name: Install yarn
-      run: npm install -g yarn
-    - name: Install project dependencies
-      if: steps.yarn-cache.outputs.cache-hit != 'true' # Over here!
-      run: yarn
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - name: Checkout
-      uses: actions/checkout@v1
-    - name: Run ESLint
-      run: eslint . --ext .js,.jsx,.ts,.tsx
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - run: npm ci # or yarn install
+      - uses: sibiraj-s/action-eslint@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }} # Optional
+          eslint-args: '--ignore-path=.gitignore --quiet'
+          extensions: 'js,jsx,ts,tsx'
+          annotations: true
   build:
     strategy:
       matrix:
