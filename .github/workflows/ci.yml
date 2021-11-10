@@ -22,7 +22,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Run ESLint
-    - uses: stefanoeb/eslint-action@1.0.2
+      uses: stefanoeb/eslint-action@1.0.2
       with:
           files: src/
     - name: Use Node.js ${{ matrix.node-version }}
