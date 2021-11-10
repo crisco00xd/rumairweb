@@ -33,4 +33,5 @@ jobs:
       with:
         run: npm test
     - name: Run ESLint
-      run: eslint . --ext .js,.jsx,.ts,.tsx
+    - uses: stefanoeb/eslint-action@1.0.2
+    - run: eslint . --ext .js,.jsx,.ts,.tsx
